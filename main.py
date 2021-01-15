@@ -5,7 +5,7 @@ import io
 import os
 
 class GeoJsonConvertor:
-    DEFAULT_SRID = "4326"
+    DEFAULT_SRID = "SRID=4326"
 
     def __init__(self, jsonFile):
         self.jsonFile = jsonFile
